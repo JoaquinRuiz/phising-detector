@@ -44,3 +44,9 @@ Uses the `mshenoda/roberta-spam` model from Hugging Face, fine-tuned for spam/ph
 ## Disclaimer
 
 This is a demo script. For production use, consider additional security measures and model validation.
+
+## About the Author
+
+Check out my book "Programming with Artificial Intelligence" available on [Amazon](https://www.amazon.com/dp/B0FQ4ZFTSN).
+
+Made with ❤️ by [JokiRuiz](https://jokiruiz.com)
