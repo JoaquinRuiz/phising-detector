@@ -10,13 +10,15 @@ A simple Python script that uses machine learning to detect phishing attempts in
 
 ## Requirements
 
-- Python 3.x
-- transformers library
-- torch (automatically installed with transformers)
+- Python 3.9 or newer
+- Internet connection for the first model download
 
-Install dependencies:
+## Installation
+
+Create and activate your preferred virtual environment, then install dependencies:
+
 ```bash
-pip install transformers
+pip install -r requirements.txt
 ```
 
 ## Usage
@@ -31,6 +33,11 @@ python ia_or_true.py "Your suspicious message here"
 python ia_or_true.py
 ```
 Then paste messages one by one. Press Enter on empty line to exit.
+
+### Exit Codes
+
+- Returns `0` after successful execution.
+- Raises an exception if the underlying model download fails.
 
 ## Model
 
